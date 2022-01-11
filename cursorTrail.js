@@ -1,5 +1,5 @@
-const LINE_DURATION = 2;
-const LINE_WIDTH_START = 5;
+const LINE_DURATION = 20;
+const LINE_WIDTH_START = 1;
 
 $(document).ready(function() {
   enableDrawingCanvas();
@@ -88,13 +88,13 @@ var context;
 var newWidth = 1000;
 var newHeight = 800;
 
-var mode = 1;
+var mode = 2;
 var pathMode = 1;
-var spread = 2;
+var spread = 18;
 
 var lineColor = 'rgb(237, 184, 131)';
 var lineDuration = LINE_DURATION;
-var lineFadeLinger = 1;
+var lineFadeLinger = 8;
 var lineWidthStart = LINE_WIDTH_START;
 var fadeDuration = 50;
 var drawEveryFrame = 1; // Only adds a Point after these many 'mousemove' events
